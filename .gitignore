@@ -1,2 +1,3 @@
-GEMINI_PROMPTS.md
-PROJECT_REPORT.md
+/backend/.env
+/backend/node_modules
+/backend/python
