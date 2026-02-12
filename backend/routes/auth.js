@@ -5,28 +5,21 @@ const { protect } = require('../middleware/auth');
 
 const router = express.Router();
 
-/**
- * Helper function to generate JWT token and set cookie
- */
 const sendTokenResponse = (user, statusCode, res) => {
-  // Create JWT token
   const token = jwt.sign(
     { id: user._id },
     process.env.JWT_SECRET,
     { expiresIn: '30d' }
   );
 
-  // Cookie options
   const cookieOptions = {
-    expires: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
-    httpOnly: true, // Prevents client-side JS access (XSS protection)
-    sameSite: 'strict', // CSRF protection
-    // secure: process.env.NODE_ENV === 'production' // HTTPS only in production
+    expires: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), 
+    httpOnly: true, 
+    sameSite: 'lax', 
+    secure: process.env.NODE_ENV === 'production' 
   };
 
-  // Send response with cookie
-  res
-    .status(statusCode)
+  res.status(statusCode)
     .cookie('token', token, cookieOptions)
     .json({
       success: true,
@@ -69,7 +62,7 @@ router.post('/register', async (req, res) => {
     // Create new user (password will be hashed by pre-save hook)
     const user = await User.create({
       fullName,
-      email,
+      email: email.toLowerCase(),
       mobile,
       location,
       password
