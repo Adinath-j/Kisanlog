@@ -4,7 +4,7 @@
 
 KisanLog helps farmers track their agricultural expenses and yields across different crops and seasons (Kharif, Rabi, Zaid), providing detailed profitability analysis and insights to optimize farm operations.
 
----
+--- 
 
 ##  Features
 
