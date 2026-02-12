@@ -6,7 +6,7 @@ KisanLog helps farmers track their agricultural expenses and yields across diffe
 
 ---
 
-## 🌟 Features
+##  Features
 
 - **Expense Management**: Track farm expenses across categories (Seeds, Fertilizers, Pesticides, Labor, Machinery, Fuel, Irrigation)
 - **Yield Tracking**: Record harvest yields with quantity, unit pricing, and revenue calculation
@@ -19,7 +19,7 @@ KisanLog helps farmers track their agricultural expenses and yields across diffe
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Technology Stack](#technology-stack)
 - [Project Architecture](#project-architecture)
@@ -34,7 +34,7 @@ KisanLog helps farmers track their agricultural expenses and yields across diffe
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Backend
 - **Runtime**: Node.js v14+
@@ -52,7 +52,7 @@ KisanLog helps farmers track their agricultural expenses and yields across diffe
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ### High-Level Architecture
 
@@ -107,7 +107,7 @@ KisanLog helps farmers track their agricultural expenses and yields across diffe
 
 ---
 
-## 📥 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -171,7 +171,7 @@ The frontend is served from the `frontend` directory automatically.
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Database Configuration
 
@@ -206,7 +206,7 @@ app.use(cors({
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### User Registration
 
@@ -266,7 +266,7 @@ app.use(cors({
 
 ---
 
-## 📡 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -390,7 +390,7 @@ Cookie: token=<jwt_token>
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 KisanLog/
@@ -438,7 +438,7 @@ KisanLog/
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ### User Collection
 ```javascript
@@ -494,7 +494,7 @@ KisanLog/
 
 ---
 
-## 🔒 Security Features
+##  Security Features
 
 - **Password Hashing**: bcryptjs with salt rounds
 - **JWT Authentication**: Secure token-based auth
@@ -506,7 +506,7 @@ KisanLog/
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Manual Testing Checklist
 
@@ -526,7 +526,7 @@ KisanLog/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -538,13 +538,13 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Developer
+##  Developer
 
 **Adinath J**
 - GitHub: [@Adinath-j](https://github.com/Adinath-j)
@@ -552,7 +552,7 @@ This project is licensed under the MIT License.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Chart.js for beautiful visualizations
 - MongoDB for robust database solution
@@ -561,7 +561,7 @@ This project is licensed under the MIT License.
 
 ---
 
-## 📞 Support
+##  Support
 
 For issues, questions, or suggestions, please open an issue on GitHub.
 
